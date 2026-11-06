@@ -1,0 +1,50 @@
+{
+  "executedAt": "2026-11-06T06:40:51.775Z",
+  "testsPassed": 11,
+  "results": [
+    {
+      "test": "Payment sample contains 12 records and 6 flagged rows",
+      "result": "PASS"
+    },
+    {
+      "test": "Repeated-reference and similarity groups contain four paid records",
+      "result": "PASS"
+    },
+    {
+      "test": "Same amount and payee in different currencies is not matched",
+      "result": "PASS"
+    },
+    {
+      "test": "Two-day boundary is included, three-day gap excluded",
+      "result": "PASS"
+    },
+    {
+      "test": "Failed rows are not treated as successful duplicate payments",
+      "result": "PASS"
+    },
+    {
+      "test": "Quoted commas and embedded newlines parse correctly",
+      "result": "PASS"
+    },
+    {
+      "test": "Invalid calendar date is rejected",
+      "result": "PASS"
+    },
+    {
+      "test": "Duplicate record ID is rejected",
+      "result": "PASS"
+    },
+    {
+      "test": "Fractional-cent and negative amounts are rejected",
+      "result": "PASS"
+    },
+    {
+      "test": "Malformed quotes and duplicate columns are rejected",
+      "result": "PASS"
+    },
+    {
+      "test": "Review exports retain notes and neutralize spreadsheet formulas",
+      "result": "PASS"
+    }
+  ]
+}
